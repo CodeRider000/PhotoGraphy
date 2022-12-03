@@ -1,0 +1,146 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
+}
+.Header{
+  background-color: #050609;
+  width: 100%;
+  height: 10vh;
+  color: #E5EBEA;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 1.5rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+    position: fixed;
+}
+h4{
+  padding:20px;
+  margin: auto 0;
+
+}
+.cover{
+  margin: auto 0;
+ display: flex;
+ justify-content: center;
+ align-items:center;
+ height: 70vh;
+ background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(img.jpg) no-repeat center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+.coverText{
+  font-family: 'Rubik Microbe', cursive;
+  color: #E0E2DB;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  cursor: default;
+}
+.ProjectGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    background-color: #050609;
+}
+.box{
+    text-align: center;
+    padding: 130px;
+    margin:20px;
+    transition: 300ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*font setting*/
+    color: #E0E2DB;
+    font-family: 'Klee One', cursive;
+    align-content: space-around;
+}
+.box > h1{
+    text-decoration: underline #E0E2DB;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid #E0E2DB;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 8px;
+}
+.box:hover{
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transform:scale(1.1);
+}
+.landscape{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/landScape.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.fashion{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/fashion.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.fineArt{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/fineArt.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.portrait{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/portrait.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wildLife{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/wildlife.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.macro{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/macro.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.photoJournalism{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/photoj.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.architectural{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/archiectural.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.BlackAndWhite{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.623)),url(imgs/blackwhite.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
